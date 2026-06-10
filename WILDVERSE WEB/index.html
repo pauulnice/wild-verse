@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WildVerse</title>
+<link rel="stylesheet" href="style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<header class="header">
+<nav class="nav container">
+<h1 class="logo">WildVerse</h1>
+<ul class="menu" id="menu">
+<li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#animals">Animals</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact">Contact</a></li>
+</ul>
+<div id="toggle"><i class='bx bx-menu'></i></div>
+</nav>
+</header>
+<section class="hero" id="home"><div class="overlay"><h2>Explore The Wild</h2><p>Discover wildlife, habitats and conservation stories.</p><a href="#animals" class="btn">Explore</a></div></section>
+<section id="about" class="section container"><h2>About Us</h2><p>WildVerse promotes awareness, education and protection of nature through immersive content. Founded and developed by PixelPaul Studios, this platform was built to on the belief that seeing natural world in vivid details inspires the next generation of conservationists.</p></section>
+<section id="animals" class="section">
+  <div class="animal-page" data-animal="Lion">
+    <div class="animal-hero" style="background: url('https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?auto=format&fit=crop&w=1400&q=80') center/cover;">
+      <div class="animal-overlay">
+        <h1>Lion</h1>
+        <p class="animal-subtitle">Leader of the Savannah</p>
+      </div>
+    </div>
+    <div class="animal-content container">
+      <p class="animal-desc">Lions are the most social of big cats and lead a highly organized pride life. They are known for their powerful roars, which can be heard from miles away.</p>
+      <div class="animal-info">
+        <div class="info-card"><h3>Habitat</h3><p>African Savannas</p></div>
+        <div class="info-card"><h3>Diet</h3><p>Carnivore</p></div>
+        <div class="info-card"><h3>Lifespan</h3><p>15-20 years</p></div>
+      </div>
+      <button class="btn btn-species">View Subspecies</button>
+    </div>
+  </div>
+
+  <div class="animal-page" data-animal="Elephant">
+    <div class="animal-hero" style="background: url('https://images.unsplash.com/photo-1603483080228-04f2313d9f10?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover;">
+      <div class="animal-overlay">
+        <h1>Elephant</h1>
+        <p class="animal-subtitle">Gentle Giant of Africa</p>
+      </div>
+    </div>
+    <div class="animal-content container">
+      <p class="animal-desc">Elephants are the largest land animals and are known for their intelligence, memory, and complex social structures. They play a crucial role in maintaining their ecosystems.</p>
+      <div class="animal-info">
+        <div class="info-card"><h3>Habitat</h3><p>African & Asian Forests</p></div>
+        <div class="info-card"><h3>Diet</h3><p>Herbivore</p></div>
+        <div class="info-card"><h3>Lifespan</h3><p>60-70 years</p></div>
+      </div>
+      <button class="btn btn-species">View Subspecies</button>
+    </div>
+  </div>
+
+  <div class="animal-page" data-animal="Tiger">
+    <div class="animal-hero" style="background: url('https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=1400&q=80') center/cover;">
+      <div class="animal-overlay">
+        <h1>Tiger</h1>
+        <p class="animal-subtitle">Stealth Hunter of Forests</p>
+      </div>
+    </div>
+    <div class="animal-content container">
+      <p class="animal-desc">Tigers are solitary hunters and the largest of all big cats. Their distinctive orange and black stripes make them one of the most recognizable animals. They are critically endangered.</p>
+      <div class="animal-info">
+        <div class="info-card"><h3>Habitat</h3><p>Asian Forests</p></div>
+        <div class="info-card"><h3>Diet</h3><p>Carnivore</p></div>
+        <div class="info-card"><h3>Lifespan</h3><p>15-20 years</p></div>
+      </div>
+      <button class="btn btn-species">View Subspecies</button>
+    </div>
+  </div>
+
+  <div class="animal-page" data-animal="Eagle">
+    <div class="animal-hero" style="background: url('https://images.unsplash.com/photo-1700052861935-64a082fc4f97?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover;">
+      <div class="animal-overlay">
+        <h1>Eagle</h1>
+        <p class="animal-subtitle">Master of the Skies</p>
+      </div>
+    </div>
+    <div class="animal-content container">
+      <p class="animal-desc">Eagles are powerful birds of prey with exceptional eyesight. They can spot their prey from miles away and dive at incredible speeds, making them perfect predators.</p>
+      <div class="animal-info">
+        <div class="info-card"><h3>Habitat</h3><p>Mountains & Coastlines</p></div>
+        <div class="info-card"><h3>Diet</h3><p>Carnivore</p></div>
+        <div class="info-card"><h3>Lifespan</h3><p>30-50 years</p></div>
+      </div>
+      <button class="btn btn-species">View Subspecies</button>
+    </div>
+  </div>
+
+  <div class="animal-page" data-animal="Dolphin">
+    <div class="animal-hero" style="background: url('https://images.unsplash.com/photo-1591706405280-f03acb082051?q=80&w=1186&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover;">
+      <div class="animal-overlay">
+        <h1>Dolphin</h1>
+        <p class="animal-subtitle">Intelligent Ocean Swimmer</p>
+      </div>
+    </div>
+    <div class="animal-content container">
+      <p class="animal-desc">Dolphins are highly intelligent marine mammals known for their playful behavior and complex communication. They are found in oceans and rivers worldwide.</p>
+      <div class="animal-info">
+        <div class="info-card"><h3>Habitat</h3><p>Oceans & Rivers</p></div>
+        <div class="info-card"><h3>Diet</h3><p>Carnivore</p></div>
+        <div class="info-card"><h3>Lifespan</h3><p>20-45 years</p></div>
+      </div>
+      <button class="btn btn-species">View Subspecies</button>
+    </div>
+  </div>
+
+  <div class="animal-page" data-animal="Panda">
+    <div class="animal-hero" style="background: url('https://images.unsplash.com/photo-1525382455947-f319bc05fb35?auto=format&fit=crop&w=1400&q=80') center/cover;">
+      <div class="animal-overlay">
+        <h1>Panda</h1>
+        <p class="animal-subtitle">Beloved Bamboo Eater</p>
+      </div>
+    </div>
+    <div class="animal-content container">
+      <p class="animal-desc">Giant pandas are iconic symbols of wildlife conservation. Despite being classified as carnivores, they primarily eat bamboo. They are an endangered species native to China.</p>
+      <div class="animal-info">
+        <div class="info-card"><h3>Habitat</h3><p>Chinese Bamboo Forests</p></div>
+        <div class="info-card"><h3>Diet</h3><p>Herbivore</p></div>
+        <div class="info-card"><h3>Lifespan</h3><p>20-30 years</p></div>
+      </div>
+      <button class="btn btn-species">View Subspecies</button>
+    </div>
+  </div>
+
+  <div class="animal-page" data-animal="Bear">
+    <div class="animal-hero" style="background: url('https://images.unsplash.com/photo-1599948058230-78896e742f7e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YnJvd24lMjBiZWFyfGVufDB8fDB8fHww') center/cover;">
+      <div class="animal-overlay">
+        <h1>Bear</h1>
+        <p class="animal-subtitle">Powerful Forest Wanderer</p>
+      </div>
+    </div>
+    <div class="animal-content container">
+      <p class="animal-desc">Bears are intelligent and powerful mammals found across the Northern Hemisphere. They are skilled hunters and foragers, known for their strength and adaptability to various environments.</p>
+      <div class="animal-info">
+        <div class="info-card"><h3>Habitat</h3><p>Forests & Mountains</p></div>
+        <div class="info-card"><h3>Diet</h3><p>Omnivore</p></div>
+        <div class="info-card"><h3>Lifespan</h3><p>25-40 years</p></div>
+      </div>
+      <button class="btn btn-species">View Subspecies</button>
+    </div>
+  </div>
+
+  <div class="animal-page" data-animal="Giraffe">
+    <div class="animal-hero" style="background: url('https://images.unsplash.com/photo-1672129368463-bb82a45d1414?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGdpcmFmZnxlbnwwfHwwfHx8MA%3D%3D') center/cover;">
+      <div class="animal-overlay">
+        <h1>Giraffe</h1>
+        <p class="animal-subtitle">Tallest Land Animal</p>
+      </div>
+    </div>
+    <div class="animal-content container">
+      <p class="animal-desc">Giraffes are the tallest land animals, with their long necks allowing them to reach high vegetation. Their unique spotted pattern is distinctive to each individual, making them easily recognizable.</p>
+      <div class="animal-info">
+        <div class="info-card"><h3>Habitat</h3><p>African Savannas</p></div>
+        <div class="info-card"><h3>Diet</h3><p>Herbivore</p></div>
+        <div class="info-card"><h3>Lifespan</h3><p>25-30 years</p></div>
+      </div>
+      <button class="btn btn-species">View Subspecies</button>
+    </div>
+  </div>
+
+  <div class="animal-page" data-animal="Wolf">
+    <div class="animal-hero" style="background: url('https://images.unsplash.com/photo-1689631281261-9b5db581168e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mzh8fHxlbnwwfHx8fHw%3D') center/cover;">
+      <div class="animal-overlay">
+        <h1>Wolf</h1>
+        <p class="animal-subtitle">Pack Hunter of the Wild</p>
+      </div>
+    </div>
+    <div class="animal-content container">
+      <p class="animal-desc">Wolves are apex predators living in organized pack structures with complex social hierarchies. They are highly intelligent, cooperative hunters that communicate through howls and body language.</p>
+      <div class="animal-info">
+        <div class="info-card"><h3>Habitat</h3><p>Forests & Tundra</p></div>
+        <div class="info-card"><h3>Diet</h3><p>Carnivore</p></div>
+        <div class="info-card"><h3>Lifespan</h3><p>12-16 years</p></div>
+      </div>
+      <button class="btn btn-species">View Subspecies</button>
+    </div>
+  </div>
+
+  <div class="animal-page" data-animal="Gorilla">
+    <div class="animal-hero" style="background: url('https://images.unsplash.com/photo-1590692995294-564cea87a687?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGdvcmlsbGF8ZW58MHx8MHx8fDA%3D') center/cover;">
+      <div class="animal-overlay">
+        <h1>Gorilla</h1>
+        <p class="animal-subtitle">Intelligent Rainforest Giant</p>
+      </div>
+    </div>
+    <div class="animal-content container">
+      <p class="animal-desc">Gorillas are the largest primates and among the most intelligent. They live in family groups led by a dominant male silverback and are known for their gentle nature despite their massive strength.</p>
+      <div class="animal-info">
+        <div class="info-card"><h3>Habitat</h3><p>African Rainforests</p></div>
+        <div class="info-card"><h3>Diet</h3><p>Herbivore</p></div>
+        <div class="info-card"><h3>Lifespan</h3><p>35-40 years</p></div>
+      </div>
+      <button class="btn btn-species">View Subspecies</button>
+    </div>
+  </div>
+
+  <div class="animal-page" data-animal="Zebra">
+    <div class="animal-hero" style="background: url('https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover;">
+      <div class="animal-overlay">
+        <h1>Zebra</h1>
+        <p class="animal-subtitle">Striped Savanna Runner</p>
+      </div>
+    </div>
+    <div class="animal-content container">
+      <p class="animal-desc">Zebras are distinctive striped equines living in African savannas. Each zebra's stripe pattern is unique like a fingerprint. They are fast runners that rely on speed and agility to escape predators.</p>
+      <div class="animal-info">
+        <div class="info-card"><h3>Habitat</h3><p>African Grasslands</p></div>
+        <div class="info-card"><h3>Diet</h3><p>Herbivore</p></div>
+        <div class="info-card"><h3>Lifespan</h3><p>20-30 years</p></div>
+      </div>
+      <button class="btn btn-species">View Subspecies</button>
+    </div>
+  </div>
+
+  <div class="animal-page" data-animal="SnowLeopard">
+    <div class="animal-hero" style="background: url('https://media.istockphoto.com/id/162449948/photo/snow-leopard-looking-at-camera.webp?a=1&b=1&s=612x612&w=0&k=20&c=coS_fpuEUKhmOhbR1GrnERNYAIWAaPE3jydz6W9lf-Y=') center/cover;">
+      <div class="animal-overlay">
+        <h1>Snow Leopard</h1>
+        <p class="animal-subtitle">Ghost of the Mountains</p>
+      </div>
+    </div>
+    <div class="animal-content container">
+      <p class="animal-desc">Snow leopards are elusive and rare big cats living in high Himalayan mountains. Their thick fur and cryptic coloration allow them to blend seamlessly with their snowy habitat, making them incredibly difficult to spot.</p>
+      <div class="animal-info">
+        <div class="info-card"><h3>Habitat</h3><p>High Mountain Ranges</p></div>
+        <div class="info-card"><h3>Diet</h3><p>Carnivore</p></div>
+        <div class="info-card"><h3>Lifespan</h3><p>15-18 years</p></div>
+      </div>
+      <button class="btn btn-species">View Subspecies</button>
+    </div>
+  </div>
+
+  <div class="animal-page" data-animal="Snake">
+    <div class="animal-hero" style="background: url('https://a-z-animals.com/media/2020/01/Snake-Pit-Vipet.jpg') center/cover;">
+      <div class="animal-overlay">
+        <h1>Snake</h1>
+        <p class="animal-subtitle">Slithering Master of Stealth</p>
+      </div>
+    </div>
+    <div class="animal-content container">
+      <p class="animal-desc">Snakes are fascinating reptiles found on every continent except Antarctica. With over 3,000 species, they exhibit incredible diversity in size, color, and behavior. Despite their fearsome reputation, most snakes are harmless to humans.</p>
+      <div class="animal-info">
+        <div class="info-card"><h3>Habitat</h3><p>Diverse Environments</p></div>
+        <div class="info-card"><h3>Diet</h3><p>Carnivore</p></div>
+        <div class="info-card"><h3>Lifespan</h3><p>15-25 years</p></div>
+      </div>
+      <button class="btn btn-species">View Subspecies</button>
+    </div>
+  </div>
+
+  <div class="navigation">
+    <button class="nav-btn prev" onclick="prevAnimal()"><i class='bx bx-chevron-left'></i></button>
+    <div class="page-indicators" id="pageIndicators"></div>
+    <button class="nav-btn next" onclick="nextAnimal()"><i class='bx bx-chevron-right'></i></button>
+  </div>
+</section>
+<section class="stats"><div><h3 data-count="250">0</h3><p>Species Covered</p></div><div><h3 data-count="80">0</h3><p>Habitats</p></div><div><h3 data-count="50">0</h3><p>Conservation Partners</p></div></section>
+<section id="faq" class="section container"><h2>FAQ</h2>
+<div class="faq-item">
+  <button class="faq-q"><span>Why wildlife matters?</span><i class='bx bx-plus'></i></button>
+  <p class="faq-a">Wildlife supports ecosystems and biodiversity. Animals maintain ecological balance, pollinate plants, control pests, and contribute to the survival of our planet.</p>
+</div>
+<div class="faq-item">
+  <button class="faq-q"><span>How can I help conservation?</span><i class='bx bx-plus'></i></button>
+  <p class="faq-a">Support conservation organizations, reduce your carbon footprint, recycle, use sustainable products, and spread awareness about endangered species in your community.</p>
+</div>
+<div class="faq-item">
+  <button class="faq-q"><span>What makes a species endangered?</span><i class='bx bx-plus'></i></button>
+  <p class="faq-a">Species become endangered due to habitat loss, climate change, pollution, excessive hunting, and disease. Human activities are the primary cause of most endangerments.</p>
+</div>
+<div class="faq-item">
+  <button class="faq-q"><span>How many animals are currently endangered?</span><i class='bx bx-plus'></i></button>
+  <p class="faq-a">Over 37,000 species are threatened with extinction according to the IUCN Red List. This includes mammals, birds, reptiles, amphibians, fish, and invertebrates.</p>
+</div>
+<div class="faq-item">
+  <button class="faq-q"><span>What is wildlife conservation?</span><i class='bx bx-plus'></i></button>
+  <p class="faq-a">Wildlife conservation is the practice of protecting endangered plant and animal species and their habitats. It involves research, protection, restoration, and education efforts.</p>
+</div>
+<div class="faq-item">
+  <button class="faq-q"><span>Can I visit these animals in the wild?</span><i class='bx bx-plus'></i></button>
+  <p class="faq-a">Many animals can be seen in their natural habitats through responsible wildlife tourism and national parks. Always follow local guidelines and support ethical tourism practices.</p>
+</div>
+</section>
+<section id="contact" class="section container"><h2>Contact</h2><form class="form"><input placeholder="Name"><input placeholder="Email"><textarea placeholder="Message"></textarea><button class="btn">Send</button></form></section>
+<footer class="footer"><p>© 2026 WildVerse | Built with ❤️ by PixelPaul Studios</p><div><i class='bx bxl-facebook'></i> <i class='bx bxl-instagram'></i> <i class='bx bxl-youtube'></i></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
